@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>2O25 Daily Inspirations</title>
   <style>
     body {
@@ -13,9 +13,9 @@
 
     h1 {
       text-align: center;
-      font-size: 3.6em; /* 標題字級加大一倍 */
+      font-size: 3.6em;
       line-height: 1.4;
-      margin-bottom: 3em; /* 標題與首張圖片的距離加大 */
+      margin-bottom: 4em;
       color: #333;
     }
 
@@ -23,7 +23,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 3em;
+      gap: 4em;
       margin-top: 2em;
     }
 
@@ -41,36 +41,28 @@
 
     .title {
       text-align: left;
-      font-size: 2em; /* 作品名稱字級加大一倍 */
-      font-weight: 600;
+      font-size: 2em;
+      font-weight: bold;
       color: #222;
-      margin-top: 0.8em;
-      margin-bottom: 0.8em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
     }
 
     .title-second {
       text-align: left;
-      font-size: 1.5em; /* 第二件作品字級縮小 */
-      font-weight: 600;
+      font-size: 1.5em;
+      font-weight: bold;
       color: #222;
-      margin-top: 0.8em;
-      margin-bottom: 0.8em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
     }
 
-    .item button {
-      display: block;
-      margin-top: 0.5em;
-      padding: 0.6em 1.2em;
+    .description {
+      text-align: left;
       font-size: 1em;
-      border: none;
-      border-radius: 8px;
-      background-color: #4caf50;
-      color: white;
-      cursor: pointer;
-    }
-
-    .item button:hover {
-      background-color: #388e3c;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 2em;
     }
   </style>
 </head>
@@ -82,45 +74,61 @@
   </h1>
 
   <div class="gallery">
+
     <div class="item">
       <img src="NO.1-RGB.jpg" alt="作品 NO.01" />
       <div class="title">NO.01 《無論如何已經元旦》</div>
-      <button onclick="speak('這是作品一的語音導覽')">播放語音導覽</button>
+      <p class="description">
+        期末因為沒有交出作業的懸著的心，交雜對自己新一年的希望與期許，矛盾而形成一種凝滯不前的防護層。我之於設計有不顯於表面的熱情，無論如何已經元旦，做一張海報，給設計的新一次也是新一年的第一次回饋和熱情的實踐，這張海報證明我與設計的期待和一次有趣的色彩體驗。
+      </p>
     </div>
+
     <div class="item">
       <img src="NO.7-RGB.jpg" alt="作品 NO.07" />
-      <div class="title-second">NO.07 《當今世界或关於Hangla Manasin。再会》</div> <!-- 第二件作品名稱字級縮小 -->
-      <button onclick="speak('這是作品二的語音導覽')">播放語音導覽</button>
+      <div class="title-second">NO.07 《當今世界或关於Hangla Manasin。再会》</div>
+      <p class="description">
+        簡中體相較繁中體是整體濃淡較平均有呼吸感的，若純粹考量視覺呈現時，我有時會刻意借簡體字來混著繁體字應用；但其背也後無法避免牽連一定的文化意義與認同問題。我記得Joe 提到很有趣的一個解法，用AI製成架空文字，這樣既可以無須考慮文字背後的文化背景，也可藉由指令調整所需的視覺特徵。<br><br>
+        可是如此一來真的會更好嗎？<br><br>
+        我思考著被剝離的文字意義，與架空文字的抽象表達。Adobe內建的自動填滿的「被忽視的文字」以不善閱讀的方式覆蓋在本就朦朧不清的影像上，回應了簡中與繁中之間曖昧的界線，並隱喻一種層層淡去、堆疊與更加模糊的文字意義的視覺表達。<br><br>
+        標題的命名「當今世界或關於Hangla Manasin。再會 」即是「架空文字」四字，經由Google translate 上百種語言「口耳相傳」並利用「自動語言感知」功能翻譯過後回至繁體中文的結果，是清晰明瞭的語意層層剝落的應證過程。
+      </p>
     </div>
+
     <div class="item">
       <img src="NO.5-RGB.jpg" alt="作品 NO.05" />
       <div class="title">NO.05 《去做 DOIT》</div>
-      <button onclick="speak('這是作品三的語音導覽')">播放語音導覽</button>
+      <p class="description">
+        我喜歡在便條紙上用馬克筆紀錄靈感，一張張的彩色方格上，時常是我對於文字字型的天馬行空。海報邊角的小文字試圖還原馬克筆在紙上擴散的現象，「去做」與「DOIT」型變的字樣在畫面中央，是符號的聯想，對應便利貼的繽紛色彩。<br><br>
+        去做，是我對自己的精神喊話。放棄很容易，重新再站起來奮鬥卻很難。就像停留在便條紙上的靈感，究竟何時會再現於設計中？何時會有下一步？「去做」才能夠將那些停滯的、沉積的好的想法重新揚起並飛舞。這張海報是第一步。
+      </p>
     </div>
+
     <div class="item">
       <img src="NO.3-RGB.jpg" alt="作品 NO.03" />
       <div class="title">NO.03 《靜心》</div>
-      <button onclick="speak('這是作品四的語音導覽')">播放語音導覽</button>
+      <p class="description">
+        概念出自我寫的一首詩。內容在強調，我們常常對外界保持過度的好奇與關注，卻時時忘記將注意放回到自己身上，甚至提到這些課題時，會否認對自己的關心甚低。<br><br>
+        靜下心，感受陽光與風；發現地上來自自己的落髮、身體上的小毛病等等；用心體驗每一次的呼氣與吸氣。
+      </p>
     </div>
+
     <div class="item">
       <img src="NO.4-RGB.jpg" alt="作品 NO.04" />
       <div class="title">NO.04 《⌘ shift G》</div>
-      <button onclick="speak('這是作品五的語音導覽')">播放語音導覽</button>
+      <p class="description">
+        台藝大九樓牆壁角落，組合依偎在一起的五顆電池。耳機裡播放著非/密閉空間的心流攻性防壁I.C.E 雜亂失序、中邪般的實驗電子與自由爵士刺激大膽且直打意識的視覺靈感和六個大字。一鍵解散群組的瘋狂想法是來自設計軟體的快捷鍵，搭配不經修飾的直打閃燈與直接坦白的版面配置，做出有力道且印象深刻的畫面。
+      </p>
     </div>
+
     <div class="item">
       <img src="NO.2-RGB.jpg" alt="作品 NO.02" />
       <div class="title">NO.02 《八時》</div>
-      <button onclick="speak('這是作品六的語音導覽')">播放語音導覽</button>
+      <p class="description">
+        八時是一首2023年我寫的詩，於一場微電影的拍攝後從學校搭公車回家的場景寫下，耳機裡放趙雷的署前街少年，和弦在民謠吉他的飽滿音色下進行，與疾駛的公車造成的激烈與震盪聲形成鮮明對比。這是有關於一段溫柔的美好與覆滿雜質與衝突訊息的記憶，我在2O25年將它視覺化。
+      </p>
     </div>
-  </div>
 
-  <script>
-    function speak(text) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-TW';
-      speechSynthesis.speak(utterance);
-    }
-  </script>
+  </div>
 
 </body>
 </html>
